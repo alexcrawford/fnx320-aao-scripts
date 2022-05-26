@@ -1,0 +1,12 @@
+{
+  "name": "fnx320",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "ejs-lint": "^1.2.2"
+  }
+}

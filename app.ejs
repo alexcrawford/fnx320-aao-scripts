@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScriptList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <scripts>
+        <% groups.forEach((group) => { %>
+            <% group.scripts.forEach((script) => { %>
+                <% if (script.states && script.states.length > 0) { %>
+                    <% script.states.forEach((state) => { %>
+                        <Script>
+                            <group>FNX320_<%= group.name %></group>
+                            <label><%= script.name %>_<%= state.name %></label>
+                            <script><%- include('./scripts/' + (state.template || script.template), { group, script, state }); %></script>
+                        </Script>
+                    <% }); %>
+                <% } else { %>
+                    <Script>
+                        <group>FNX320_<%= group.name %></group>
+                        <label><%= script.name %></label>
+                        <script><%- include('./scripts/' + script.template, { group, script, state: {} }); %></script>
+                    </Script>
+                <% } %>
+            <% }); %>
+        <% }); %>
+    </scripts>
+</ScriptList>

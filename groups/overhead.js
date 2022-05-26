@@ -191,5 +191,176 @@ module.exports = {
                 },
             ],
         },
+        {
+            name: 'SIGNS_SMOKING',
+            varName: 'S_OH_SIGNS_SMOKING',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'AUTO',
+                    value: 1,
+                },
+                {
+                    name: 'ON',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'INT_LT_EMER',
+            varName: 'S_OH_INT_LT_EMER',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ARM',
+                    value: 1,
+                },
+                {
+                    name: 'ON',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'INT_LT_DOME',
+            varName: 'S_OH_INT_LT_DOME',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'DIM',
+                    value: 1,
+                },
+                {
+                    name: 'BRT',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'IN_LT_ANN_LT',
+            varName: 'S_OH_IN_LT_ANN_LT',
+            template: 'value',
+            states: [
+                {
+                    name: 'BRT',
+                    value: 0,
+                },
+                {
+                    name: 'DIM',
+                    value: 1,
+                },
+                {
+                    name: 'TEST',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'WIPER_CAPT',
+            varName: 'S_MISC_WIPER_CAPT',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'SLOW',
+                    value: 1,
+                },
+                {
+                    name: 'FAST',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'WIPER_FO',
+            varName: 'S_MISC_WIPER_FO',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'SLOW',
+                    value: 1,
+                },
+                {
+                    name: 'FAST',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'NAV_IR1_MODE',
+            varName: 'S_OH_NAV_IR1_MODE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'NAV',
+                    value: 1,
+                },
+                {
+                    name: 'ATT',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'NAV_IR2_MODE',
+            varName: 'S_OH_NAV_IR2_MODE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'NAV',
+                    value: 1,
+                },
+                {
+                    name: 'ATT',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'NAV_IR3_MODE',
+            varName: 'S_OH_NAV_IR3_MODE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'NAV',
+                    value: 1,
+                },
+                {
+                    name: 'ATT',
+                    value: 2,
+                },
+            ],
+        },
     ],
 };

@@ -8,14 +8,14 @@
                         <Script>
                             <group>FNX320_<%= group.name %></group>
                             <label><%= script.name %>_<%= state.name %></label>
-                            <script><%- include('./scripts/' + (state.template || script.template), { group, script, state }); %></script>
+                            <script><%- include('../scripts/' + (state.template || script.template), { group, script, state }); %></script>
                         </Script>
                     <% }); %>
                 <% } else { %>
                     <Script>
                         <group>FNX320_<%= group.name %></group>
                         <label><%= script.name %></label>
-                        <script><%- include('./scripts/' + script.template, { group, script, state: {} }); %></script>
+                        <script><%- include('../scripts/' + script.template, { group, script, state: {} }); %></script>
                     </Script>
                 <% } %>
             <% }); %>

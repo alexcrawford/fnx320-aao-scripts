@@ -1,11 +1,10 @@
-const fcu = require('./fcu')
-const overhead = require('./overhead')
-const misc = require('./misc')
-const pedestal = require('./pedestal')
+const efis = require('./efis');
 
 exports.groups = [
-    fcu,
-    overhead,
-    misc,
-    pedestal,
+    require('./fcu'),
+    require('./overhead'),
+    require('./misc'),
+    require('./pedestal'),
+    efis(1),
+    efis(2),
 ]

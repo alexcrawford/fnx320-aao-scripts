@@ -1037,6 +1037,88 @@
         <vkKeys />
         <Action>FNX320_OH-SIGNS_BELTS_OFF</Action>
       </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>FNX320_MISC</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>FNX320_MISC-CAPT_TILLER_PEDAL_DISCONNECT_ON</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>55dc1710-53a1-11ec-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>35</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>FNX320_MISC-CAPT_TILLER_PEDAL_DISCONNECT_ON</Action>
+      </GlobalHotkey>
+      <GlobalHotkey>
+        <downEvent>
+          <Group>FNX320_MISC</Group>
+          <Description>RPN</Description>
+          <SimulatorEventName>FNX320_MISC-CAPT_TILLER_PEDAL_DISCONNECT_OFF</SimulatorEventName>
+          <MinValue>0</MinValue>
+          <MaxValue>0</MaxValue>
+          <ValueToSet>1</ValueToSet>
+          <RollMultiplier>1</RollMultiplier>
+          <IsAaoVirtualEvent>false</IsAaoVirtualEvent>
+          <type>SCRIPT</type>
+        </downEvent>
+        <repeat>16384</repeat>
+        <repeatFrequency>1</repeatFrequency>
+        <repeatLimit>0</repeatLimit>
+        <joystickGuid>55dc1710-53a1-11ec-8001-444553540000</joystickGuid>
+        <joystickName>Bravo Throttle Quadrant</joystickName>
+        <joystickButton>36</joystickButton>
+        <joystickPovControl>-1</joystickPovControl>
+        <joystickPovDirection>-1</joystickPovDirection>
+        <midiDeviceId>-1</midiDeviceId>
+        <midiChannel>-1</midiChannel>
+        <midiEvent>-1</midiEvent>
+        <endless>false</endless>
+        <rockerMode>false</rockerMode>
+        <midiEncoder>NONE</midiEncoder>
+        <isSimKey>false</isSimKey>
+        <isOnOffSwitch>false</isOnOffSwitch>
+        <comboSuppressesEvent>false</comboSuppressesEvent>
+        <comboIsToggle>false</comboIsToggle>
+        <longClick>false</longClick>
+        <longClickTimeoutMs>0</longClickTimeoutMs>
+        <fastTurn>false</fastTurn>
+        <timeoutMs>0</timeoutMs>
+        <skipActuations>0</skipActuations>
+        <adaptiveRepeat>false</adaptiveRepeat>
+        <assignedKeys />
+        <vkModifiers />
+        <vkKeys />
+        <Action>FNX320_MISC-CAPT_TILLER_PEDAL_DISCONNECT_OFF</Action>
+      </GlobalHotkey>
     </buttons>
     <axis />
     <overrideSaitekPanelInMidiMode />
@@ -1153,6 +1235,16 @@
       <group>FNX320_OH</group>
       <label>SIGNS_BELTS_OFF</label>
       <script>0 (&gt;L:S_OH_SIGNS, Number)</script>
+    </Script>
+    <Script>
+      <group>FNX320_MISC</group>
+      <label>CAPT_TILLER_PEDAL_DISCONNECT_ON</label>
+      <script>1 (&gt;L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT, Number)</script>
+    </Script>
+    <Script>
+      <group>FNX320_MISC</group>
+      <label>CAPT_TILLER_PEDAL_DISCONNECT_OFF</label>
+      <script>0 (&gt;L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT, Number)</script>
     </Script>
   </scripts>
 </TemplateExport>

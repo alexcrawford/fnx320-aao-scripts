@@ -362,5 +362,295 @@ module.exports = {
                 },
             ],
         },
+        {
+            name: 'ELEC_APU_MASTER',
+            varName: 'S_OH_ELEC_APU_MASTER',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'ELEC_APU_START',
+            varName: 'S_OH_ELEC_APU_START',
+            template: 'button',
+        },
+        {
+            name: 'PNEUMATIC_APU_BLEED',
+            varName: 'S_OH_PNEUMATIC_APU_BLEED',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'OXYGEN_CREW_OXYGEN',
+            varName: 'S_OH_OXYGEN_CREW_OXYGEN',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_LEFT_1',
+            varName: 'S_OH_FUEL_LEFT_1',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_LEFT_2',
+            varName: 'S_OH_FUEL_LEFT_2',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_RIGHT_1',
+            varName: 'S_OH_FUEL_RIGHT_1',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_RIGHT_2',
+            varName: 'S_OH_FUEL_RIGHT_2',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_CENTER_1',
+            varName: 'S_OH_FUEL_CENTER_1',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_CENTER_2',
+            varName: 'S_OH_FUEL_CENTER_2',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_XFEED',
+            varName: 'S_OH_FUEL_XFEED',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'FUEL_MODE_SEL',
+            varName: 'S_OH_FUEL_MODE_SEL',
+            template: 'value',
+            states: [
+                {
+                    name: 'MAN',
+                    value: 0,
+                },
+                {
+                    name: 'AUTO',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'PNEUMATIC_ENG1_ANTI_ICE',
+            varName: 'S_OH_PNEUMATIC_ENG1_ANTI_ICE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'PNEUMATIC_ENG2_ANTI_ICE',
+            varName: 'S_OH_PNEUMATIC_ENG2_ANTI_ICE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'PNEUMATIC_WING_ANTI_ICE',
+            varName: 'S_OH_PNEUMATIC_WING_ANTI_ICE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'PROBE_HEAT',
+            varName: 'S_OH_PROBE_HEAT',
+            template: 'value',
+            states: [
+                {
+                    name: 'AUTO',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
     ],
 };

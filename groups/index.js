@@ -7,4 +7,5 @@ exports.groups = [
     require('./pedestal'),
     efis(1),
     efis(2),
+    require('./ecam'),
 ]

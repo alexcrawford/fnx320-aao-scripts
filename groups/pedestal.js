@@ -120,5 +120,51 @@ module.exports = {
             varName: 'S_XPDR_IDENT',
             template: 'button',
         },
+        {
+            name: 'SPEEDBRAKE',
+            varName: 'A_FC_SPEEDBRAKE',
+            template: 'value',
+            states: [
+                {
+                    name: 'ARM',
+                    value: 0,
+                },
+                {
+                    name: 'RETRACT',
+                    value: 1,
+                },
+                {
+                    name: 'DETENT',
+                    value: 2,
+                },
+            ],
+        },
+        {
+            name: 'FLAPS',
+            varName: 'S_FC_FLAPS',
+            template: 'value',
+            states: [
+                {
+                    name: 'UP',
+                    value: 0,
+                },
+                {
+                    name: '1',
+                    value: 1,
+                },
+                {
+                    name: '2',
+                    value: 2,
+                },
+                {
+                    name: '3',
+                    value: 3,
+                },
+                {
+                    name: 'FULL',
+                    value: 4,
+                },
+            ],
+        },
     ],
 };

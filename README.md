@@ -2,8 +2,6 @@
 
 Lorby SI's Axis and Ohs Scripts for the Fenix A320.
 
-**This is a work in progress. Only the FCU and external lighting have been mapped so far.**
-
 ## Installation
 
 Download [fnx320_scripts.xml](https://github.com/alexcrawford/fnx320-aao-scripts/releases/latest/download/fnx320_scripts.xml) from

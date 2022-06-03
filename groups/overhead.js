@@ -136,7 +136,7 @@ module.exports = {
         },
         {
             name: 'EXT_LT_LANDING_BOTH',
-            varName: 'S_OH_EXT_LT_LANDING_BOTH',
+            varName: ['S_OH_EXT_LT_LANDING_L', 'S_OH_EXT_LT_LANDING_R'],
             template: 'value',
             states: [
                 {
@@ -653,4 +653,4 @@ module.exports = {
             ],
         },
     ],
-};
+}

@@ -1,4 +1,4 @@
-const efis = require('./efis');
+const efis = require('./efis')
 
 exports.groups = [
     require('./fcu'),

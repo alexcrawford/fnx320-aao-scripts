@@ -75,6 +75,18 @@ module.exports = (side) => {
                 ],
             },
             {
+                name: 'ND_MODE_INC',
+                varName: `S_FCU_EFIS${side}_ND_MODE`,
+                template: 'increment',
+                max: 5,
+            },
+            {
+                name: 'ND_MODE_DEC',
+                varName: `S_FCU_EFIS${side}_ND_MODE`,
+                template: 'decrement',
+                min: 0,
+            },
+            {
                 name: 'ND_ZOOM',
                 varName: `S_FCU_EFIS${side}_ND_ZOOM`,
                 template: 'value',
@@ -104,6 +116,18 @@ module.exports = (side) => {
                         value: 5,
                     },
                 ],
+            },
+            {
+                name: 'ND_ZOOM_INC',
+                varName: `S_FCU_EFIS${side}_ND_ZOOM`,
+                template: 'increment',
+                max: 5,
+            },
+            {
+                name: 'ND_ZOOM_DEC',
+                varName: `S_FCU_EFIS${side}_ND_ZOOM`,
+                template: 'decrement',
+                min: 0,
             },
             {
                 name: 'NAV1',

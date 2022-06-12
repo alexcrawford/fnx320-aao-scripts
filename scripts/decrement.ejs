@@ -1,1 +1,1 @@
-(L:<%= varName %>, <%= script.varType || 'Number' %>) -- (>L:<%= varName %>, <%= script.varType || 'Number' %>)
+(L:<%= varName %>, <%= script.varType || 'Number' %>) -- <% if (script.min) { %><%= script.min %> max <% } %>(>L:<%= varName %>, <%= script.varType || 'Number' %>)

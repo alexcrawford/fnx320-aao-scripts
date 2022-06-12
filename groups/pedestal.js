@@ -166,5 +166,24 @@ module.exports = {
                 },
             ],
         },
+        {
+            name: 'PARKING_BRAKE',
+            varName: 'S_MIP_PARKING_BRAKE',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
     ],
 }

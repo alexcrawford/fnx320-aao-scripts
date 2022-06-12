@@ -652,5 +652,44 @@ module.exports = {
                 },
             ],
         },
+        {
+            name: 'PNEUMATIC_PACK_1',
+            varName: 'S_OH_PNEUMATIC_PACK_1',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+        {
+            name: 'PNEUMATIC_PACK_2',
+            varName: 'S_OH_PNEUMATIC_PACK_2',
+            template: 'value',
+            states: [
+                {
+                    name: 'OFF',
+                    value: 0,
+                },
+                {
+                    name: 'ON',
+                    value: 1,
+                },
+                {
+                    name: 'TOGGLE',
+                    template: 'toggle',
+                },
+            ],
+        },
+
     ],
 }

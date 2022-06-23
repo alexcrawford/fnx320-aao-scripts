@@ -187,5 +187,44 @@ module.exports = {
                 },
             ],
         },
+        {
+            name: 'MIP_CHRONO_CAPT',
+            varName: 'S_MIP_CHRONO_CAPT',
+            template: 'button',
+        },
+        {
+            name: 'MIP_CHRONO_FO',
+            varName: 'S_MIP_CHRONO_FO',
+            template: 'button',
+        },
+        {
+            name: 'MIP_CLOCK_RST',
+            varName: 'S_MIP_CLOCK_RST',
+            template: 'button',
+        },
+        {
+            name: 'MIP_CLOCK_CHR',
+            varName: 'S_MIP_CLOCK_CHR',
+            template: 'button',
+        },
+        {
+            name: 'MIP_CLOCK_ET',
+            varName: 'S_MIP_CLOCK_ET',
+            template: 'value',
+            states: [
+                {
+                    name: 'RUN',
+                    value: 0,
+                },
+                {
+                    name: 'STP',
+                    value: 1,
+                },
+                {
+                    name: 'RST',
+                    value: 2,
+                },
+            ],
+        },
     ],
 }
